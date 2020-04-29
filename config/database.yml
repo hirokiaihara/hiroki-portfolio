@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: hiroki-portfolio_production
-  username: hiroki-portfolio
-  password: <%= ENV['HIROKI-PORTFOLIO_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
