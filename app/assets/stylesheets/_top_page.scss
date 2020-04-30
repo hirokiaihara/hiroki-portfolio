@@ -78,7 +78,7 @@ header {
 }
 .main__container {
   &__top {
-    background-image: url(sunrize.jpg);
+    background-image: image-url('sunrize.jpg');
     background-size: cover;
     height: 420px;
     background-position: 0px 40%;
