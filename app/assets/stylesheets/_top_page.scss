@@ -1,3 +1,230 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', 'メイリオ', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 270px;
+  background-color: #6CB8FF;
+  animation: gradation 6s infinite;
+  @keyframes gradation {
+    0% { background-color: #667db6; }
+    50% { background-color: #0082c8; }
+    100% { background-color: #667db6; }
+  }
+  .header__container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    &__logo__box {
+      h3 {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 0.1em;
+      }
+      h4 {
+        color: #ffffff;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+      }
+    }
+    &__link__box {
+      a {
+        font-size: 33px;
+        color: #ffffff;
+      }
+      .fa-twitter-square {
+        padding-right: 10px;
+      }
+    }
+  }
+  .header__nav__container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    .cf {
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      li {
+        padding: 60px 0px 30px;
+        a {
+          font-size: 20px;
+          color: #ffffff;
+          letter-spacing: 0.1em;
+        }
+      }
+      .left, .center {
+        padding-right: 30px;
+      }
+    }
+  }
+  .footer__nav__container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+.main__container {
+  &__top {
+    background-image: url(sunrize.jpg);
+    background-size: cover;
+    height: 420px;
+    background-position: 0px 40%;
+    text-align: center;
+    h1 {
+      padding-top: 180px;
+      font-size: 40px;
+      color: #ffffff;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+    h3 {
+      font-size: 25px;
+      color: #ffffff;
+      letter-spacing: 0.1em;
+    }
+  } 
+  &__low {
+    background-color: #FFEFBA;
+    animation: gradation_02 6s infinite;
+    @keyframes gradation_02 {
+      0% { background-color: #FFEFBA; }
+      50% { background-color: #ffffff; }
+      100% { background-color: #FFEFBA; }
+    }
+    &__section#works {
+      height: 860px;
+    }
+    &__section {
+      height: 380px;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      color: #333333;
+      h2 {
+        font-size: 40px;
+        letter-spacing: 0.1em;
+        padding: 60px 0px 50px;
+        font-weight: lighter;
+        text-align: center;
+      }
+      &__author {
+        display: flex;
+        &__image {
+          padding: 25px 40px 0px 120px;
+          img {
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+        &__introduction {
+          h3 {
+            font-size: 23px;
+            letter-spacing: 0.1em;
+          }
+          p {
+            font-size: 18px;
+            letter-spacing: 0.1em;
+            padding: 3px 0px;
+          }
+        }
+      }
+      &__flexArea {
+        display: flex;
+        justify-content: space-around;
+        &__contents {
+          width: 45%;
+          text-align: center;
+          &--upper {
+            &__firstImage {
+              img {
+                width: 90%;
+                height: 275px;
+                object-fit: cover;
+                margin: 3px;
+              }
+            }
+            h3 {
+              font-size: 22px;
+              letter-spacing: 0.1em;
+              
+            }
+            a {
+              font-size: 19px;
+              border-bottom: 1px solid;
+              }
+              h4 {
+                font-size: 15px;
+                padding-top: 5px;
+              }
+            p {
+              font-size: 17px;
+              padding-top: 5px;
+              letter-spacing: 0.1em;
+            }
+            &__imageList {
+              img {
+                width: 44%;
+                height: 100px;
+                margin: 3px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+      &__contact {
+        text-align: center;
+        a {
+          font-size: 35px;
+        }
+        p {
+          padding-top: 50px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+} 
+footer {
+  background-color: #6CB8FF;
+  animation: gradation 6s infinite;
+  @keyframes gradation {
+    0% { background-color: #667db6; }
+    50% { background-color: #0082c8; }
+    100% { background-color: #667db6; }
+  }
+  .footer__nav__container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    .cf {
+      display: flex;
+      li {
+        padding: 30px 0px;
+        a {
+         font-size: 20px;
+         color: #ffffff;
+         letter-spacing: 0.1em;
+        }
+      }
+      .center, .right {
+        padding-left: 30px;
+      }
+    }
+  }
+}

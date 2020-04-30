@@ -1,1 +1,55 @@
-自動デプロイ
+.main__container
+  .main__container__top
+    %h1 Hiroki Aihara
+    %h3 Portfolio
+  .main__container__low
+    .main__container__low__section#about
+      %h2 About
+      .main__container__low__section__author
+        .main__container__low__section__author__image
+          = image_tag "hiroki.png"
+        .main__container__low__section__author__introduction
+          %h3 相原 大樹 Aihara Hiroki
+          %p.txt 秋田県出身, 札幌の調理師学校を卒業後, 
+          %p.txt 東京都内のイタリアンレストランで腕を磨く。
+          %p.txt 2020年, 生活を豊にするプロダクトを制作するためにプログラミングの道へ
+          %p.txt TECH::CAMP 71期 卒業
+    .main__container__low__section#works
+      %h2 Works
+      .main__container__low__section__flexArea
+        .main__container__low__section__flexArea__contents
+          .main__container__low__section__flexArea__contents--upper
+            .main__container__low__section__flexArea__contents--upper__firstImage
+              = image_tag "top_page_02.jpg", class: "firstImage"
+            %h3 レシピ検索アプリ ~Hiropad~
+            = link_to "http://3.113.152.91" do
+              http://3.113.152.91
+            %h4 使用技術 / Ruby on Rails / HTML / CSS / JavaScript / AWS
+            %p 機能 / レシピ投稿・検索・詳細表示・編集・削除 / お気に入り / つくれぽ / マイページ / ランキング
+            .main__container__low__section__flexArea__contents--upper__imageList
+              = image_tag "top_page_03.jpg", class: "imageList"
+              = image_tag "top_page_02.jpg", class: "imageList"
+              = image_tag "post.jpg", class: "imageList"
+              = image_tag "report.png", class: "imageList"
+            %p 制作期間 / スクール卒業後, 14日間
+        .main__container__low__section__flexArea__contents
+          .main__container__low__section__flexArea__contents--upper
+            .main__container__low__section__flexArea__contents--upper__firstImage
+              = image_tag "portfolio_top.png", class: "firstImage_02"
+            %h3 ポートフォリオ ~Hiroki’s Portfolio~
+            = link_to "http://18.182.77.4" do
+              http://18.182.77.4
+            %h4 使用技術 / HTML / CSS / JavaScript / AWS
+            %p 機能 / 自己紹介の為のプロフィール表示 / スムーススクロール / マウスオーバーで写真切り替え
+            .main__container__low__section__flexArea__contents--upper__imageList
+              = image_tag "portfolio_about.png", class: "imageList_02"
+              = image_tag "portfolio_top.png", class: "imageList_02"
+              = image_tag "portfolio_works.jpg", class: "imageList_02"
+              = image_tag "portfolio_contact.png", class: "imageList_02"
+            %p 制作期間 / スクール卒業後, 3日間
+    .main__container__low__section#contact
+      %h2 Contact
+      .main__container__low__section__contact 
+        = link_to "https://twitter.com/hirokiaihara1" do
+          .i.fab.fa-twitter-square
+        %p ご連絡等はTwitterのDMにてお願い致します

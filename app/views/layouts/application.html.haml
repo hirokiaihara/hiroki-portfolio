@@ -7,4 +7,41 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
+    %header
+      .header__container
+        .header__container__logo__box
+          = link_to root_path do
+            %h3 Hiroki Aihara
+            %h4 Portfolio
+        .header__container__link__box
+          = link_to "https://twitter.com/hirokiaihara1" do
+            .i.fab.fa-twitter-square
+          = link_to "https://github.com/hirokiaihara" do
+            .i.fab.fa-github-square
+      .header__nav__container
+        %ul.cf
+          %li.left
+            %a(href="#about")
+              About
+          %li.center
+            %a(href="#works")
+              Works
+          %li.right
+            %a(href="#contact")
+              Contact
     = yield
+    %footer
+      .footer__nav__container
+        %ul.cf
+          %li.left
+            %a(href="#about")
+              About
+          %li.center
+            %a(href="#works")
+              Works
+          %li.right
+            %a(href="#contact")
+              Contact
+            
+      
+
