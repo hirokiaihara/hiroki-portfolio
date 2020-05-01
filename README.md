@@ -2,7 +2,7 @@
 ## ポートフォリオ Hiroki's Portfolio
 ![portfolio_top](https://user-images.githubusercontent.com/61179665/80733083-2ef5fa80-8b48-11ea-8b28-34a7e49c48e9.jpg)
 ### adress
-**http://www.hiroki-portfolio.com.**
+**http://www.hiroki-portfolio.com**
 ### What's? & Why?
 **自分の現在地をアピールできるページが必要だったからです。また、スクール卒業後にProgateで復習したフロント言語のアウトプットをしたかったからです。**
 ## 使用技術
