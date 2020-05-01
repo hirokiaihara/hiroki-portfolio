@@ -83,6 +83,12 @@
         color: #ffffff;
         letter-spacing: 0.1em;
       }
+      h4 {
+        padding-top: 110px;
+        color: #ffffff;
+        font-size: 23px;
+        display: block;
+      }
     } 
     &__low {
       background-color: #FFEFBA;
@@ -274,7 +280,7 @@
           }
         }
         .left, .center {
-          padding-right: 30px;
+          padding-right: 20px;
         }
       }
     }
@@ -287,11 +293,11 @@
     &__top {
       background-image: image-url('sunrize.jpg');
       background-size: cover;
-      height: 380px;
+      height: 420px;
       background-position: 0px 40%;
       text-align: center;
       h1 {
-        padding-top: 150px;
+        padding-top: 160px;
         font-size: 42px;
         color: #ffffff;
         font-weight: bold;
@@ -302,6 +308,63 @@
         color: #ffffff;
         letter-spacing: 0.1em;
       }
+      h4 {
+        padding-top: 110px;
+        color: #ffffff;
+        font-size: 23px;
+        display: block;
+      }
+      dl {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        padding: 16px 20px;
+        color: #fff;
+        background: rgba(49, 116, 240, 0.6);
+        background: transparent;
+        width: 100%;
+        height: 100%;
+        font-size: 17px;
+        letter-spacing: 0.1em;
+        font-style: oblique;
+        padding-top: 70px;
+      }
+      dl dt, dl dd {
+        position: relative;
+        z-index: 1;
+        transition: opacity .3s .3s;
+        line-height: 40px;
+      }
+      dl::before, dl::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background:rgba(49, 116, 240, 0.6);
+        transition: opacity 0.3s, transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+      dl::before {
+        left: 0;
+      }
+      dl::after {
+        right: 0;
+      }
+    }
+    &__top:not(:hover) dl dt, &__top:not(:hover) dl dd {
+      opacity: 0;
+      transition-delay: 0s;
+    } 
+    &__top:not(:hover) dl::before, &__top:not(:hover) dl::after {
+      opacity: 0;
+      transition-duration: 0.6s;
+    }
+    &__top:not(:hover) dl::before {
+      transform: translateX(-175px) skew(-30deg);
+    }
+    &__top:not(:hover) dl::after {
+      transform: translateX(100%) skew(-30deg);
     } 
     &__low {
       background-color: #FFEFBA;
