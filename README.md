@@ -2,7 +2,7 @@
 ## ポートフォリオ Hiroki's Portfolio
 ![portfolio_top](https://user-images.githubusercontent.com/61179665/80733083-2ef5fa80-8b48-11ea-8b28-34a7e49c48e9.jpg)
 ### adress
-**http://18.182.77.4**
+**http://www.hiroki-portfolio.com.**
 ### What's? & Why?
 **自分の現在地をアピールできるページが必要だったからです。また、スクール卒業後にProgateで復習したフロント言語のアウトプットをしたかったからです。**
 ## 使用技術
@@ -12,7 +12,7 @@
 - JavaScript
 - jQuery
 ### 環境
-- AWS EC2
+- AWS EC2 Route53
 - Capistrano 自動デプロイ
 ## 機能
 **各セクションへスムーススクロールが可能です。**
