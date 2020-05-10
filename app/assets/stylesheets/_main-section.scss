@@ -1,0 +1,30 @@
+.main-section {
+  height: 380px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  color: #333333;
+  &#works {
+    height: 900px;
+  }
+  h2 {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    padding: 60px 0px 50px;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) { 
+
+}
+
+@media (max-width: 670px) {
+  .main-section {
+    height: 445px;
+    &#works {
+      height: 1680px;
+    }
+  }
+}

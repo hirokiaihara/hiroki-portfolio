@@ -1,0 +1,22 @@
+%header
+  .header-container
+    .logo
+      = link_to root_path do
+        %h3 Hiroki Aihara
+        %h4 Portfolio
+    .social
+      = link_to "https://twitter.com/tech_hiroki" do
+        .i.fab.fa-twitter-square
+      = link_to "https://github.com/hirokiaihara" do
+        .i.fab.fa-github-square
+  .header-nav-container
+    %ul.cf
+      %li.left
+        %a(href="#about")
+          About
+      %li.center
+        %a(href="#works")
+          Works
+      %li.right
+        %a(href="#contact")
+          Contact

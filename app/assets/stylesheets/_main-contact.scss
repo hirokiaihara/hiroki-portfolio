@@ -1,0 +1,26 @@
+.main-contact {
+  text-align: center;
+  a {
+    font-size: 35px;
+    .i {
+      transition: all 0.4s ease 0s;
+    }
+    .i:hover {
+      transform: scale(1.1, 1.1);
+    }
+  }
+  p {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1000px) { 
+
+}
+
+@media (max-width: 670px) {
+  .main-contact {
+    padding: 50px 30px;
+  }
+}

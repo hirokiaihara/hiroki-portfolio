@@ -7,35 +7,35 @@
       50% { background-color: #0082c8; }
       100% { background-color: #667db6; }
     }
-    .header__container {
-      width: 100%;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      padding: 60px 30px;
-      &__logo__box {
-        h3 {
-          color: #ffffff;
-          font-weight: bold;
-          font-size: 27px;
-          letter-spacing: 0.1em;
-        }
-        h4 {
-          color: #ffffff;
-          font-size: 22px;
-          letter-spacing: 0.1em;
-        }
-      }
-      &__link__box {
-        a {
-          font-size: 35px;
-          color: #ffffff;
-        }
-        .fa-twitter-square {
-          padding-right: 10px;
-        }
-      }
-    }
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px;
+.logo {
+  h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 0.1em;
+  }
+  h4 {
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+  }
+}
+&__link__box {
+  a {
+    font-size: 35px;
+    color: #ffffff;
+  }
+  .fa-twitter-square {
+    padding-right: 10px;
+  }
+}
+}
     .header__nav__container {
       width: 100%;
       margin: 0 auto;
@@ -235,7 +235,7 @@
       50% { background-color: #0082c8; }
       100% { background-color: #667db6; }
     }
-    .header__container {
+    .header-container {
       width: 100%;
       margin: 0 auto;
       display: flex;

@@ -1,0 +1,17 @@
+.main-contents {
+  background-color: #FFEFBA;
+  animation: gradation_02 6s infinite;
+  @keyframes gradation_02 {
+    0% { background-color: #FFEFBA; }
+    50% { background-color: #ffffff; }
+    100% { background-color: #FFEFBA; }
+  }
+}
+
+@media (max-width: 1000px) { 
+
+}
+
+@media (max-width: 670px) {
+
+}
