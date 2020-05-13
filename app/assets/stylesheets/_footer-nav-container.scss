@@ -35,4 +35,9 @@
 }
 
 @media (max-width: 670px) {
+  .footer-nav-container {
+    ul {
+      justify-content: center;
+    }
+  }
 }
