@@ -3,10 +3,10 @@
   max-width: 960px;
   margin: 0 auto;
   padding-left: 10px;
-  .cf {
+  ul {
     display: flex;
     li {
-      padding: 30px 0px;
+      padding: 30px 15px;
       a {
         font-size: 20px;
         color: #ffffff;
@@ -28,34 +28,11 @@
         width: 100%;
       }
     }
-    .center, .right {
-      padding-left: 30px;
-    }
   }
 }
 
 @media (max-width: 1000px) { 
-  .footer-nav-container {
-    .cf {
-      li {
-        padding: 30px 0;
-      }
-    }
-  }
 }
 
 @media (max-width: 670px) {
-  .footer-nav-container {
-    .cf {
-      li {
-        padding: 30px 30px;
-        a {
-          font-size: 90%;
-        }
-      }
-      .center, .right {
-        padding-left: 20px;
-      }
-    }
-  }
 }
