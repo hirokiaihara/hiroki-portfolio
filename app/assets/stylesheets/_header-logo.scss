@@ -1,0 +1,35 @@
+.header-logo {
+  h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+  }
+  h4 {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (max-width: 1000px) { 
+  .header-logo {
+    h3 {
+      font-size: 27px;
+    }
+    h4 {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  .header-logo {
+    h3 {
+      font-size: 22px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+}

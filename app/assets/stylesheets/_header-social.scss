@@ -1,0 +1,32 @@
+.header-social {
+  a {
+    font-size: 33px;
+    color: #ffffff;
+    .i {
+      transition: all 0.4s ease 0s;
+    }
+    .i:hover {
+      transform: scale(1.1, 1.1);
+    }
+  }
+  .fa-twitter-square {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1000px) { 
+  .header-social {
+    a {
+      font-size: 35px;
+    }
+  }
+}
+
+
+@media (max-width: 670px) {
+  .header-social {
+    a {
+      font-size: 30px;
+    }
+  }
+}
