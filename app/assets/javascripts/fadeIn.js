@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("turbolinks:load", function () {
   const cb = function(el, isIntersecting) {
     if(isIntersecting) {
       el.classList.add('inview');
