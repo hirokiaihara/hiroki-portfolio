@@ -16,7 +16,7 @@
 - Capistrano 自動デプロイ
 ## 機能
 **各セクションへスムーススクロール**
-![portfolio_works](https://user-images.githubusercontent.com/61179665/80730999-45e71d80-8b45-11ea-8343-b6e7614ccd10.jpg)
+![97629327fd4fbc7931251cecd7e02f76](https://user-images.githubusercontent.com/61179665/83655575-8d0b7700-a5f9-11ea-8c24-d2820ff88cff.jpg)
 **Responsive Design**
 ![shotsnapp-1588259753 678](https://user-images.githubusercontent.com/61179665/80731052-5a2b1a80-8b45-11ea-989e-da32b9e01809.png)
 ### 今後は学習でインプットした技術をこのページにアウトプットしていく形でビルドアップしていきたいです。
