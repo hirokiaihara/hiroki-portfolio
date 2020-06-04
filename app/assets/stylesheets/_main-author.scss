@@ -29,8 +29,13 @@
 
 @media (max-width: 1000px) { 
   .main-author {
+    display: block;
+    text-align: center;
     &__image {
-      padding: 25px 40px 0px 100px;
+      padding: 10px 0;
+    }
+    &__introduction {
+      padding: 30px;
     }
   }
 }
@@ -39,11 +44,9 @@
   .main-author {
     display: block;
     text-align: center;
-    &__image {
-      padding: 10px 0;
-    }
     &__introduction {
-      p {
+      padding: 5px;
+      p.txt {
         font-size: 15px;
       }
     }
