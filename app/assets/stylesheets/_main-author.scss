@@ -14,10 +14,15 @@
       font-size: 23px;
       letter-spacing: 0.1em;
     }
-    p {
+    p.txt {
       font-size: 18px;
       letter-spacing: 0.1em;
-      padding: 3px 0px;
+      padding: 15px 0px;
+    }
+    p.stxt {
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      padding: 10px 0px;
     }
   }
 }
